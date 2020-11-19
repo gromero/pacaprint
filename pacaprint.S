@@ -6,8 +6,8 @@
 .globl pacaprint
 
 pacaprint:
-	li      10,  '#'      // POWER9
-//	pli     10,0xdeadc0de // POWER10
+//	li      10,  '#'      // POWER9
+	pli     10,0xdeadc0de // POWER10
 	std	10,  0(3)   
 
         std     4, 8*1(3)  
